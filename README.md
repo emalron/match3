@@ -33,6 +33,32 @@ A test case looks like:
    python3 test.py
    ```
 
+## Result
+
+Results would be like:
+```
+Size: (3, 5)
+Grid:
+[1, 1, 2, 2, 2]
+[3, 1, 1, 3, 3]
+[1, 3, 3, 2, 2]
+# of color groups: 7
+[(2, 0), (3, 0), (4, 0)]
+[0, 0, 1, 1, 1]
+
+Size: (3, 3)
+Grid:
+[1, 1, 1]
+[2, 2, 1]
+[2, 2, 1]
+# of color groups: 2
+[(0, 0), (1, 0), (2, 0), (2, 1), (2, 2)]
+[1, 1, 1]
+[0, 0, 1]
+[0, 0, 1]
+```
+
+
 The test code will read the test cases from `test.txt`, find the matched gems for each test case, and display the results.
 
 Make sure to have Python 3 installed on your system before running the code.
