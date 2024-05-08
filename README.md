@@ -3,7 +3,7 @@ Test code for finding matched gems. (python3)
 you can add/edit test cases in test.txt
 
 A test case looks like
-==============
+'''
 3,4
 111
 233
@@ -13,7 +13,7 @@ A test case looks like
 2,2
 11
 22
-==============
+'''
 
 1. each test case separated by \n\n
 2. the first line define the size of grid like (cols, rows)
